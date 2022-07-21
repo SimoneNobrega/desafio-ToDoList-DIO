@@ -1,0 +1,70 @@
+
+
+
+html, body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eceff7;
+    
+
+}
+
+
+#container{
+    margin-top: 10px;
+    padding: 10px;
+    max-width: 350px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+#input{
+    margin-right: 3px;
+    margin-left: 5px;
+    
+
+    line-height: 20px;
+    margin: 0;
+}
+
+.titulo{
+    /* text-align: center; */
+    padding-bottom: 5px;
+}
+
+#botao{
+    align-self: flex-start;
+
+    line-height: 20px;
+}
+
+#listaTarefas{
+    min-width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 0px 0px 0px;  
+    margin-top: 5px;
+    flex-direction: column;
+    
+}
+
+.tarefa {
+    border-bottom: 1px solid;
+    padding: 4px;
+    
+}
+
+.tarefa:nth-child(even){
+    background-color: #d2d5f7;
+     
+}
+
+
+
+
+
+    
